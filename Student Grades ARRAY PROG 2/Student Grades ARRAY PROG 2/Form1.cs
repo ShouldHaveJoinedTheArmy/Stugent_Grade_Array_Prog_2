@@ -26,5 +26,27 @@ namespace Student_Grades_ARRAY_PROG_2
         {
 
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            //Calling halt procedure
+            Halt();
+        }
+
+        //Procedure to exit application
+        public static void Halt()
+        {
+            //Local Variable to store results
+            DialogResult dr;
+
+            //Accept Result
+            dr = MessageBox.Show("Are you sure you want to exit?", "Confirm Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            //If yes then close
+            if (dr == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
