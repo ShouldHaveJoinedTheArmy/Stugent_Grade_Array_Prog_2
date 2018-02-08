@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Student_Grades_ARRAY_PROG_2
 {
-    public partial class Form1 : Form
+    public partial class FrmStudentGrades : Form
     {
-        public Form1()
+        public FrmStudentGrades()
         {
             InitializeComponent();
+        }
+
+        private void lblMaths_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblScience_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
