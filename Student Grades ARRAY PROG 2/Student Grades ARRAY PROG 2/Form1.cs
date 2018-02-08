@@ -86,7 +86,7 @@ namespace Student_Grades_ARRAY_PROG_2
             intRecordCount++;
 
             //Display Message
-            MessageBox.Show("Infor Saved");
+            MessageBox.Show("Info Saved");
 
             //Clear Form
             ClearDetails();
