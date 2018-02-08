@@ -12,6 +12,22 @@ namespace Student_Grades_ARRAY_PROG_2
 {
     public partial class FrmStudentGrades : Form
     {
+        //Variables & Arrays
+        const int arraysize = 30;
+
+        private static string[] strStudentName = new string[arraysize];
+        private static string[] strStudentNumber = new string[arraysize];
+        private static string[] strGroup = new string[arraysize];
+
+        private static int[] intEnglish = new int[arraysize];
+        private static int[] intMaths = new int[arraysize];
+        private static int[] intScience = new int[arraysize];
+
+        private static int intRecordCount = 0;
+        private static int intLoopCounter = 0;
+        private static float fAverage = 0;
+        private static String strGrade = "";
+
         public FrmStudentGrades()
         {
             InitializeComponent();
